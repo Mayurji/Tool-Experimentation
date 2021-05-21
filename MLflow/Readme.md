@@ -1,5 +1,7 @@
 ## Tracking ML Experiments Using MLflow
 
+![MLflow Experiment Tracker](images/mlflow_experiment_tracker.png)
+
 ### Install
 
 ```python

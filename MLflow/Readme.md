@@ -39,3 +39,6 @@ Note: If above steps are confusing, just follow two commands
 pip install -r requirements.txt
 python mlflow_1.py 1.0 0.5
 ```
+### Reference
+
+[MLflow](https://www.mlflow.org/docs/latest/tutorials-and-examples/tutorial.html#conda-example)

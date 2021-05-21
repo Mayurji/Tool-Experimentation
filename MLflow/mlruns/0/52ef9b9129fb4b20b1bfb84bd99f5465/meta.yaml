@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mayur/Desktop/MLflow/Beginner%20Project/mlruns/0/52ef9b9129fb4b20b1bfb84bd99f5465/artifacts
+end_time: 1621456578030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 52ef9b9129fb4b20b1bfb84bd99f5465
+run_uuid: 52ef9b9129fb4b20b1bfb84bd99f5465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1621456577044
+status: 4
+tags: []
+user_id: mayur

@@ -33,7 +33,8 @@ mlflow run MLflow/ -P alpha=0.45
   - Runs the mlflow GUI interface on 127.0.0.1:5000
   - Filter experiments using hyperparameters and other tunable metric.
 
-Note: If above steps are confusing, just follow two commands
+**Note**
+If above steps are confusing, just follow two commands
 
 ```python
 pip install -r requirements.txt

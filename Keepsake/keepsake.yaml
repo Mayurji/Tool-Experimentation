@@ -1,0 +1,4 @@
+#repository: "file://.keepsake"
+repository: "s3://keepsake-trial"
+#repository: "gs://keepsake-trial"
+#repository: "file:///mnt/storage/"

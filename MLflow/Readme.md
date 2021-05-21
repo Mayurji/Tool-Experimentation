@@ -8,19 +8,27 @@
 pip install -r requirements.txt
 ```
 
-### Run
+### Steps
+
+* Creating Conda Environment
+* Installing Necessary Libraries
+* Creating Machine Learning model file with mlflow trackers and loggers.(mlflow_1.py filename)
+* Creating Conda.yaml using 
+  ```python
+  conda env export > conda.yaml
+  ```
+* Creating MLProject file
+* **Run**
 
 ```python
 # P refers parameter with alpha as hyperparameter of the ElasticNet Model.
 
 mlflow run MLflow/ -P alpha=0.45
 ```
-
-### Steps
-
-* Creating Conda Environment
-* Installing Necessary Libraries
-* Creating Conda.yaml using 
+* Creates mlruns folder with experiments
+* Using mlflow commands as below
   ```python
-  conda env export > conda.yaml
+  mlflow ui
   ```
+  - Runs the mlflow GUI interface on 127.0.0.1:5000
+  - Filter experiments using hyperparameters and other tunable metric.
